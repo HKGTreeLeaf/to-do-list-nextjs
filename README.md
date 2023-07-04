@@ -22,3 +22,17 @@ run the e2e test via UI:
 yarn && yarn test:playwright-ui
 ```
 As this is single user application, one triggered e2e test, all data will be deleted.
+
+### Directory layout
+
+    .
+    ├── Prisma                  # DB Schema from Prisma
+    ├── src                     # Source files
+    │   ├── component           # UI Component files
+    │   ├── lib                 # Prisma Client Setting
+    │   ├── model               # To-Do-List Data Model
+    │   ├── pages               # Pages and API routing
+    │   │   └── api             # API routing
+    │   └── store               # state management file
+    ├── tests                   # E2E Automated test
+    └── README.md
