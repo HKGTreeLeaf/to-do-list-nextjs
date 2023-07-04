@@ -58,7 +58,7 @@ test.describe("check user flow", () => {
 
   test('should delete the item when clicked the delete button',async ({ page }) => {
     await page.getByTestId('todo-list-item').first().getByTestId('delete-btn').click()
-    await page.getByTestId('todo-list-item').first().waitFor()
+    await page.waitForTimeout(0)
 
     await expect(await page.getByTestId('todo-list-item').count()).toBe(0)
   });

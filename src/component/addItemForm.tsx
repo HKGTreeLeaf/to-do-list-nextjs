@@ -39,7 +39,7 @@ export default function AddItemForm() {
                         variant="filled"
                         label="Add to do item here"
                         error={error !== undefined}
-                        helperText={error ? <span data-testid="add-item-warning">Required Item</span> : ""}
+                        helperText={error ? <span data-testid="add-item-warning">Required Field</span> : ""}
                     />
                 )}
             />

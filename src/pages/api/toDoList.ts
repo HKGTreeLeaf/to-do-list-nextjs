@@ -1,4 +1,4 @@
-import { createToDoItem, deleteAllToDoItem, getAllToDoItem, updateToDoItem } from "@/model/toDoItem";
+import { createToDoItem, deleteAllToDoItem, getAllToDoItem, updateToDoItem } from "@/model/toDoItemModel";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {

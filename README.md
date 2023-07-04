@@ -10,6 +10,8 @@ docker-compose up
 ```
 You can access the page via [HERE](http://localhost:3000/)
 
+You can access the pgadmin via [HERE](http://localhost:3001/login?next=%2F), with login `admin@admin.com` and password `pass`
+
 run the e2e test:
 ```bash
 yarn && yarn test:playwright
@@ -19,3 +21,4 @@ run the e2e test via UI:
 ```bash
 yarn && yarn test:playwright-ui
 ```
+As this is single user application, one triggered e2e test, all data will be deleted.

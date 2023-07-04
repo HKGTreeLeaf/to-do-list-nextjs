@@ -55,7 +55,7 @@ export default function ListItem(props: listItemProps) {
                 return actionBtnForFinishedToDoItem
             default:
                 return (
-                    <Button color="inherit" size="small">
+                    <Button data-testid="delete-btn" onClick={() => onClickActionForButtons("DELETED")} color="inherit" size="small">
                         DELETE
                     </Button>
                 )
