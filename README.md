@@ -26,7 +26,7 @@ As this is single user application, one triggered e2e test, all data will be del
 ### Directory layout
 
     .
-    ├── Prisma                  # DB Schema from Prisma
+    ├── prisma                  # DB Schema from Prisma
     ├── src                     # Source files
     │   ├── component           # UI Component files
     │   ├── lib                 # Prisma Client Setting
